@@ -1,0 +1,101 @@
+.tela-geral{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.lateral-esquerda{
+    width: 35%;
+    height: 100vh;
+    background-color: #00bfa5;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    }
+.welcome{
+    font-size: 59px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.cadastro{
+    color: #fff;
+    font-weight: lighter;
+    font-size: 19px;
+    padding-bottom: 45px;
+    align-items: center;
+    justify-items: center;
+}
+.cadastro-btn{
+    color: #00bfa5;
+    background-color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 200px;
+}
+.login-area{
+    color:#00bfa5;
+    font-weight: bold;
+    font-size: 19px;
+    text-align: center;
+}
+.lateral-direita{
+    width: 65%;
+    height: 100vh;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    font-size: 59px;
+    align-items: center;
+    justify-items: center;
+}
+.icon{
+    cursor: pointer;    
+    padding: 15px;
+    color: #999;
+    border-radius: 75%;
+    
+}
+.botoes{
+    display: flex;
+    justify-content: center;
+}
+.text-area{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 130px;
+}
+.menssagem{
+    font-size: 19px;
+    padding-bottom: 15px;
+}
+.enviar-btn{
+    background-color: #00bfa5;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 200px;
+}
+#barras{
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    flex: 1;
+    border: 0;
+    outline: 0;
+}
